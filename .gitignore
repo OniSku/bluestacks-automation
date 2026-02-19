@@ -1,0 +1,33 @@
+# Исполняемые файлы и сборки
+*.exe
+*.pkg
+*.msix
+*.toc
+*.pyz
+build/
+dist/
+*.spec
+
+# Логи и текстовые базы данных
+*.log
+*.txt
+bad.txt
+good.txt
+ACC.txt
+
+# Настройки среды разработки (PyCharm)
+.idea/
+*.iml
+workspace.xml
+modules.xml
+profiles_settings.xml
+
+# Кэш интерпретатора Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+.env
